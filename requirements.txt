@@ -1,0 +1,20 @@
+# Core Libraries
+numpy
+pandas
+
+# Machine Learning
+scikit-learn
+joblib
+
+# Streamlit for app
+streamlit
+
+# Visualization
+matplotlib
+seaborn
+
+# for Excel support
+openpyxl
+
+# for plotting enhancements
+pillow
