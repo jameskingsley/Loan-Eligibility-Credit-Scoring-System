@@ -188,13 +188,13 @@ else:
 
         # Risk Level Distribution
         risk_counts = results['Risk_Level'].value_counts()
-        axes[0].bar(risk_counts.index, risk_counts.values, color=['green', 'orange', 'red'])
+        axes[0].bar(risk_counts.index, risk_counts.values, color=['green', 'red', 'orange'])
         axes[0].set_title("Risk Level Distribution")
         axes[0].set_ylabel("Count")
 
         # Credit Decision Distribution
         decision_counts = results['Credit_Decision'].value_counts()
-        axes[1].bar(decision_counts.index, decision_counts.values, color=['green', 'orange', 'red'])
+        axes[1].bar(decision_counts.index, decision_counts.values, color=['green', 'red', 'orange'])
         axes[1].set_title("Credit Decision Distribution")
         axes[1].set_ylabel("Count")
 
@@ -216,3 +216,4 @@ else:
             file_name='loan_approval_predictions.csv',
             mime='text/csv'
         )
+
