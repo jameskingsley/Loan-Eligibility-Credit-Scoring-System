@@ -87,7 +87,7 @@ Precision & Recall
 ROC-AUC (~0.80)
 
 
-💳 Credit Scorecard (300–850)
+ ###### Credit Scorecard (300–850)
 
 A standardized credit score is generated using:
 
